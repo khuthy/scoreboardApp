@@ -1,0 +1,89 @@
+page-hello-ionic {
+   /*  .circle {
+        height: 50vh;
+        width: 50vh;
+        background: #A81F21;
+        border-radius: 50vh 0 0 0;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -5;
+        animation-name: animate;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;  
+    }
+    .main{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .content-app {
+      margin: 3em;
+      position: absolute;
+   
+    }
+    
+    h1 {
+        color: #1d3e6e;
+    }
+    @keyframes animate {
+        0% {
+            bottom: -15%;
+            right: -15%;
+        }
+        100%{
+            right: 0;
+            bottom: 0;
+        }
+    }
+    .btn-center {
+        position: absolute;
+    }
+    .avatar {
+        max-height: 30px;
+        bottom: 5%;
+        right: 5%;
+        position: absolute;
+    }
+
+    .avatar-logo {
+        max-height: 80px;
+        
+        
+    } */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 2rem;
+        background: linear-gradient(-45deg, (#A81F21) 15%, (#fff) 15%);
+    }
+    .container > div {
+      width: 100%;
+    }
+    .avatar-logo {
+        max-height: 8rem;
+        
+
+        
+        
+    }
+ 
+  
+    .avatar {
+        max-height: 20px;
+        position: absolute;
+        bottom: 1%;
+        right: 1%;
+       
+        
+    }
+    .btn {
+        text-align: center;
+    }
+}

@@ -1,0 +1,38 @@
+page-home {
+   
+
+    .container {
+        display: flex;
+   
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 2rem;
+        background:  linear-gradient(-45deg, (#A81F21) 20%, (#fff) 20%);
+    }
+    .container > div {
+      width: 100%;
+    }
+    .avatar-logo {
+        max-height: 8rem; 
+    }
+ 
+  
+    .avatar {
+        max-height: 20px;
+        position: absolute;
+        bottom: 1%;
+        right: 1%;
+       
+        
+    }
+    .btn {
+        text-align: center;
+    }
+    ion-col {
+        border: 1px solid #dddddd;
+    }
+
+}

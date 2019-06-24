@@ -1,0 +1,50 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header >
+  <ion-navbar color="danger">
+    <ion-title>Scoreboard Tracking App </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+   
+<div class="container">
+  
+<div class="content">
+    <img src="../../assets/imgs/logos.png" alt="logo" class="avatar-logo">
+    <div class="board" style="text-align: center">
+        <ion-grid>
+          <ion-row>
+              <ion-col col-6>
+                  <h1>Argentina</h1>
+              </ion-col>
+              <ion-col col-6>
+                  <h1>Spain</h1>
+              </ion-col>
+            <ion-col col-6>
+                <h1>{{count}}</h1>
+            </ion-col>
+            <ion-col col-6>
+              <h1>{{count2}}</h1>
+            </ion-col>
+            <ion-col col-6>
+             <button ion-button color="custom" (click)="firstOponent()">+1</button>
+          </ion-col>
+          <ion-col col-6>
+            <button ion-button color="custom" (click)="secondOponent()">+1</button>
+          </ion-col>
+          <ion-col col-12>
+              <div style="text-align: center;"><button ion-button (click)="resetFunc()">Reset</button></div>
+          </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    <div class="circle"><div class="images"><img src="../../assets/imgs/logos.png" alt="logo" class="avatar"></div> </div>
+</div>
+   
+ </div>
+</ion-content>
